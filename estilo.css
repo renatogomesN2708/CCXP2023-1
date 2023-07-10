@@ -56,7 +56,7 @@ header {
     font-family: 'Pridi', serif;
     font-size: 38px;
     margin-bottom: 20px;
-    margin-rigth: 5px;
+    margin-right: 5px;
     margin-top: 10px;
     
 }
@@ -67,13 +67,18 @@ header {
     background-color: white;
     font-family: 'Black Ops One', cursive;
     margin-top: -930px;
-    margin-left: 48cqw;
+    margin-left: 48rem;
     margin-bottom: 460px;
     margin-right: -15px;
 }
+#countDown p {
+    margin-left: 4em;
+}
 .count {
+    margin-left: 1em;
     color: #514988;
-    font-size: 48px;
+    font-size: 33px;
+    font-weight: bold;
     margin-top: 5px;
     margin-bottom: 5px;
 }
@@ -101,26 +106,33 @@ header {
     
 }
 #tickets {
-    margin-left: -38cqw;
-    margin-top: 430px;
+    width: 204px;
+    height: 204px;
+    flex-shrink: 0;
     display: grid;
     grid-auto-flow: column;
-    margin-top: 10rem;
-    margin-right: 1200px;
+
+    margin-top: 20rem;
+    margin-left: -56.5em;
+
 }
 #tickets:hover {
     cursor: pointer;
 }
+.ticket:hover {
+    transform: translateY(7px);
+    transition-duration: 0.5s;
+}
 
 #textTilte {
-    font-family: 'Black Ops One', cursive;
-    color: #FFD900;
-    font-size: 40px;
-    padding: 10px;
-    margin-left: 8cqw;
-    margin-top: 5rem; 
-    
-      
+    color: #F3C61F;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 10em;
 }
 #btn button{
     background-color: #514988;
@@ -128,12 +140,16 @@ header {
     color: white;
     text-align: center;
     font-size: 25px;
-    width: 500px;
-    height: 150px; 
-    margin-top: 195px;
-    margin-left: -30cqw;  
+    width: 596px;
+    height: 148px;
+    flex-shrink: 0;
+    margin-top: 14em;
 }
 #btn button:hover {
+    transform: translateY(-10px);
+    transition-duration: 0.5s;
+    background-color: #665e9b;
+    box-shadow: 10px 15px 100px rgb(151, 151, 151);
     cursor: pointer;
     color: #FFD900;
 }
